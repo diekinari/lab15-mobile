@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
+        qrCodeScanner.setOrientationLocked(true);
+        qrCodeScanner.setCaptureActivity(com.journeyapps.barcodescanner.CaptureActivity.class);
         qrCodeScanner.initiateScan();
     }
 
