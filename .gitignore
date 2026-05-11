@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local config — у каждого своя
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Keystore — никогда не коммитим
+*.jks
+*.keystore
+keystore.properties
+
+# Gradle wrapper jar (большой бинарник, не нужен в репо)
+gradle/wrapper/gradle-wrapper.jar
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Claude Code AI assistant memory
+.claude/

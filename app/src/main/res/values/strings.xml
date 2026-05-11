@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Задание 15</string>
+    <string name="title_main">QR Code Scanner</string>
+    <string name="btn_scan">Сканировать QR-код</string>
+</resources>
